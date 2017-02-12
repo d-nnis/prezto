@@ -1,9 +1,6 @@
 #
 # Executes commands at login post-zshrc.
 #
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
 
 # Execute code that does not affect the current session in the background.
 {
@@ -19,7 +16,8 @@
 
   # Print a random, hopefully interesting, adage.
   if (( $+commands[fortune] )); then
-    fortune -s
+    #fortune -s
+    echo zlogin
     print
   fi
 

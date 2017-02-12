@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+if [ -f $HOME/dotfiles/alias ]; then
+  . $HOME/dotfiles/alias
+fi
+
+echo zshrc started
+
