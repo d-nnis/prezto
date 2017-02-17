@@ -40,7 +40,7 @@ zstyle ':prezto:load' pmodule \
 #
 
 # Set key bindings
-zstyle ':prezto:module:deer' key-bindings '^k'
+#zstyle ':prezto:module:deer' key-bindings '^k'
 
 #
 # Autosuggestions
@@ -54,17 +54,25 @@ zstyle ':prezto:module:autosuggestions:color' found ''
 #
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'emacs'
+zstyle ':prezto:module:editor' key-bindings 'vi'
 
-# Auto convert .... to ../..
-zstyle ':prezto:module:editor' dot-expansion 'yes'
-
+# To indicate when the editor is in the primary keymap (emacs or viins), addthe following to your `theme_prompt_setup` function.
+zstyle ':prezto:module:editor:info:keymap:primary' format '>>>'
+# To indicate when the editor is in the primary keymap (emacs or viins) insertmode, add the following to your `theme_prompt_setup` function.
+zstyle ':prezto:module:editor:info:keymap:primary:insert' format 'I'
+# To indicate when the editor is in the primary keymap (emacs or viins) overwritemode, add the following to your `theme_prompt_setup` function.
+zstyle ':prezto:module:editor:info:keymap:primary:overwrite' format 'O'
+# To indicate when the editor is in the alternate keymap (vicmd), add thefollowing to your `theme_prompt_setup` function.
+zstyle ':prezto:module:editor:info:keymap:alternate' format '<<<'
+# To indicate when the editor is completing, add the following to your`theme_prompt_setup` function.
+#zstyle ':prezto:module:editor:info:completing' format '...'
+# Then add `$editor_info[context]`, where context is *keymap*, *insert*, or*overwrite*, to `$PROMPT` or `$RPROMPT`
 #
 # Git
 #
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
-zstyle ':prezto:module:git:status:ignore' submodules 'all'
+#zstyle ':prezto:module:git:status:ignore' submodules 'all'
 
 #
 # GNU Utility
