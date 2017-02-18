@@ -15,3 +15,5 @@ fi
 
 echo zshrc started
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
