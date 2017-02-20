@@ -188,12 +188,6 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
-tmux ls > /dev/null
-if [ "$?" -eq "1" ]; then
-  # no server running
-  tmux
-else
-  tmux at
-fi
+
 
 echo "sourced zpreztorc"
