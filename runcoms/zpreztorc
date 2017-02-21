@@ -33,7 +33,8 @@ zstyle ':prezto:load' pmodule \
   'tmux'  \
   'syntax-highlighting' \
   'history-substring-search' \
-  'git'
+  'mypool'
+#  'git'
 
 #
 # Deer
