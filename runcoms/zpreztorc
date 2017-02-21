@@ -189,4 +189,6 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
 
+
+
 echo "sourced zpreztorc"

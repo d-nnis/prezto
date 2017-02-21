@@ -10,7 +10,7 @@
 
 # Print the message.
 cat <<-EOF
-What message?
+See ya!
 EOF
 
 } >&2

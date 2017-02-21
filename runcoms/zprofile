@@ -1,7 +1,7 @@
 #
 # Executes commands at login pre-zshrc.
 #
-
+## path
 #
 # Editors
 #
@@ -26,6 +26,7 @@ fi
 typeset -gU cdpath fpath mailpath path
 
 # Set the the list of directories that cd searches.
+# --> already done via fzf?
 # cdpath=(
 #   $cdpath
 # )
@@ -55,5 +56,4 @@ fi
 #
 # Temporary Files
 #
-
 TMPPREFIX="$(mktemp -d)/zsh"

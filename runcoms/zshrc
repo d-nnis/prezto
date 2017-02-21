@@ -13,7 +13,5 @@ if [ -f $HOME/dotfiles/alias ]; then
   . $HOME/dotfiles/alias
 fi
 
-echo zshrc started
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
