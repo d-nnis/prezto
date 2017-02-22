@@ -7,7 +7,7 @@
 #
 
 # Set case-sensitivity for completion, history lookup, etc.
-# zstyle ':prezto:*:*' case-sensitive 'yes'
+zstyle ':prezto:*:*' case-sensitive 'yes'
 
 # Color output (auto set to 'no' on dumb terminals).
 zstyle ':prezto:*:*' color 'yes'
@@ -33,7 +33,7 @@ zstyle ':prezto:load' pmodule \
   'tmux'  \
   'syntax-highlighting' \
   'history-substring-search' \
-  'mypool'
+  'rumpel'
 #  'git'
 
 #
@@ -71,16 +71,8 @@ zstyle ':prezto:module:editor:info:keymap:alternate' format '<<<'
 #
 # Git
 #
-
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
 #zstyle ':prezto:module:git:status:ignore' submodules 'all'
-
-#
-# GNU Utility
-#
-
-# Set the command prefix on non-GNU systems.
-# zstyle ':prezto:module:gnu-utility' prefix 'g'
 
 #
 # History Substring Search
@@ -100,20 +92,14 @@ zstyle ':prezto:module:history-substring-search:color' not-found ''
 zstyle ':prezto:module:history-substring-search' globbing-flags ''
 
 #
-# Pacman
-#
-
-# Set the Pacman frontend.
-# zstyle ':prezto:module:pacman' frontend 'yaourt'
-
-#
 # Prompt
 #
 
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+#zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'powerline'
 
 #
 # Ruby
@@ -121,16 +107,6 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 # Auto switch the Ruby version on directory change.
 # zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
-
-#
-# Screen
-#
-
-# Auto start a session when Zsh is launched in a local terminal.
-#zstyle ':prezto:module:screen:auto-start' local 'yes'
-
-# Auto start a session when Zsh is launched in a SSH connection.
-#zstyle ':prezto:module:screen:auto-start' remote 'yes'
 
 #
 # SSH
@@ -188,7 +164,3 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 # Integrate with iTerm2.
 # zstyle ':prezto:module:tmux:iterm' integrate 'yes'
-
-
-
-echo "sourced zpreztorc"
