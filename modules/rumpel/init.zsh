@@ -15,7 +15,4 @@
 
 # Source module files.
 #source "./git.plugin.zsh"
-source "${0:h}/git.plugin.zsh"
-echo "git.plugin.zsh"
-echo "TODO: new subrepo?"
-echo "push to all available repos"
+source "${0:h}/external/git.plugin.zsh"

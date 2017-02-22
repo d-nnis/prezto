@@ -8,6 +8,8 @@ see
 
 https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
 
+* Command not integrated yet
+
 Alias   Command
 g   git
 ga  git add
