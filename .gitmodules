@@ -28,3 +28,6 @@
 [submodule "modules/zsh-notify/external"]
 	path = modules/zsh-notify/external
 	url = https://github.com/marzocchi/zsh-notify.git
+[submodule "modules/rumpel/external/rumpel"]
+	path = modules/rumpel/external/rumpel
+	url = ssh://git@github.com/d-nnis/rumpel.git
