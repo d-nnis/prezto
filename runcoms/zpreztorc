@@ -99,7 +99,14 @@ zstyle ':prezto:module:history-substring-search' globbing-flags ''
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 #zstyle ':prezto:module:prompt' theme 'sorin'
-zstyle ':prezto:module:prompt' theme 'powerline'
+#zstyle ':prezto:module:prompt' theme 'powerline'
+zstyle ':prezto:module:prompt' theme 'elite2' # magenta
+# rvm_info_prompt not found
+#zstyle ':prezto:module:prompt' theme 'random'
+#zstyle ':prezto:module:prompt' theme 'powerline'
+#zstyle ':prezto:module:prompt' theme 'bart'
+#zstyle ':prezto:module:prompt' theme 'adam2'
+#zstyle ':prezto:module:prompt' theme 'elite2'
 
 #
 # Ruby
@@ -131,9 +138,9 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
 
 # Set syntax highlighting styles.
 zstyle ':prezto:module:syntax-highlighting' styles \
-  'builtin' 'bg=blue' \
-  'command' 'bg=blue' \
-  'function' 'bg=blue'
+  'builtin' 'bg=brown' \
+  'command' 'bg=black' \
+  'function' 'bg=grey'
 
 # Set syntax pattern styles.
 zstyle ':prezto:module:syntax-highlighting' pattern \
