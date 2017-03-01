@@ -15,4 +15,5 @@
 
 # Source module files.
 #source "./git.plugin.zsh"
-source "${0:h}/external/rumpel/git.plugin.zsh"
+#source "${0:h}/external/rumpel/git.plugin.zsh"
+source "${0:h}/external/git.plugin.zsh"
