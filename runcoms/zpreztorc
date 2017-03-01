@@ -2,6 +2,17 @@
 # Sets Prezto options.
 #
 
+
+files=/home/back/.zprezto/modules/syntax-highlighting/external/zsh-syntax-highlighting.zsh /home/back/.zprezto/modules/history-substring-search/external/zsh-history-substring-search.zsh /home/back/.zprezto/modules/rumpel/external/git.plugin.zsh
+
+
+for file in $files; do
+  if [ ! -f $file ]; then
+  echo "files in prezto modules are missing"
+  exit 1
+fi
+
+
 #
 # General
 #
