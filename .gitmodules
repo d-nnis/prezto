@@ -30,4 +30,4 @@
 	url = https://github.com/marzocchi/zsh-notify.git
 [submodule "modules/rumpel/external"]
 	path = modules/rumpel/external
-	url = ssh://git@github.com/d-nnis/rumpel.git
+	url = https://github.com/d-nnis/rumpel.git

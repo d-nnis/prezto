@@ -7,7 +7,7 @@
 #
 
 # Set case-sensitivity for completion, history lookup, etc.
-zstyle ':prezto:*:*' case-sensitive 'yes'
+zstyle ':prezto:*:*' case-sensitive 'no'
 
 # Color output (auto set to 'no' on dumb terminals).
 zstyle ':prezto:*:*' color 'yes'
@@ -78,7 +78,7 @@ zstyle ':prezto:module:editor:info:keymap:alternate' format '<<<'
 # History Substring Search
 #
 
-zstyle ':prezto:module:history-substring-search' case-sensitive 'yes'
+zstyle ':prezto:module:history-substring-search' case-sensitive 'no'
 
 zstyle ':prezto:module:history-substring-search' color 'yes'
 
