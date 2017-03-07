@@ -31,11 +31,13 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'prompt'  \
   'tmux'  \
-  'syntax-highlighting' \
   'history-substring-search' \
+  'syntax-highlighting' \
   'rumpel'
 #  'git'
 
+
+#  'syntax-highlighting' \
 #
 # Deer
 #
@@ -89,7 +91,7 @@ zstyle ':prezto:module:history-substring-search:color' found ''
 zstyle ':prezto:module:history-substring-search:color' not-found ''
 
 # Set the search globbing flags.
-zstyle ':prezto:module:history-substring-search' globbing-flags ''
+#zstyle ':prezto:module:history-substring-search' globbing-flags ''
 
 #
 # Prompt
