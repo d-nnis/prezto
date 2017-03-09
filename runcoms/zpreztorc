@@ -55,18 +55,21 @@ zstyle ':prezto:module:autosuggestions:color' found ''
 # Editor
 #
 
-# Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:editor' dot-expansion 'yes'
 
-# To indicate when the editor is in the primary keymap (emacs or viins), addthe following to your `theme_prompt_setup` function.
-zstyle ':prezto:module:editor:info:keymap:primary' format '>>>'
-# To indicate when the editor is in the primary keymap (emacs or viins) insertmode, add the following to your `theme_prompt_setup` function.
-zstyle ':prezto:module:editor:info:keymap:primary:insert' format 'I'
-# To indicate when the editor is in the primary keymap (emacs or viins) overwritemode, add the following to your `theme_prompt_setup` function.
-zstyle ':prezto:module:editor:info:keymap:primary:overwrite' format 'O'
-# To indicate when the editor is in the alternate keymap (vicmd), add thefollowing to your `theme_prompt_setup` function.
-zstyle ':prezto:module:editor:info:keymap:alternate' format '<<<'
-# To indicate when the editor is completing, add the following to your`theme_prompt_setup` function.
+
+## Set the key mapping style to 'emacs' or 'vi'.
+#zstyle ':prezto:module:editor' key-bindings ''
+#
+## To indicate when the editor is in the primary keymap (emacs or viins), addthe following to your `theme_prompt_setup` function.
+#zstyle ':prezto:module:editor:info:keymap:primary' format '>>>'
+## To indicate when the editor is in the primary keymap (emacs or viins) insertmode, add the following to your `theme_prompt_setup` function.
+#zstyle ':prezto:module:editor:info:keymap:primary:insert' format 'I'
+## To indicate when the editor is in the primary keymap (emacs or viins) overwritemode, add the following to your `theme_prompt_setup` function.
+#zstyle ':prezto:module:editor:info:keymap:primary:overwrite' format 'O'
+## To indicate when the editor is in the alternate keymap (vicmd), add thefollowing to your `theme_prompt_setup` function.
+#zstyle ':prezto:module:editor:info:keymap:alternate' format '<<<'
+## To indicate when the editor is completing, add the following to your`theme_prompt_setup` function.
 #zstyle ':prezto:module:editor:info:completing' format '...'
 # Then add `$editor_info[context]`, where context is *keymap*, *insert*, or*overwrite*, to `$PROMPT` or `$RPROMPT`
 #
