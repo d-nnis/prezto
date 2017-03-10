@@ -10,7 +10,7 @@
 
 # Print the message.
 cat <<-EOF
-See ya!
+See ya again, at ${HOST}'s, ${USER}!
 EOF
 
 } >&2
