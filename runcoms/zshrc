@@ -19,6 +19,6 @@ zle -N edit-command-line
 bindkey '\C-x\C-e' edit-command-line
 
 #export TERM="rxvt-unicode-256color"
-export TERM="screen-256color"
+#export TERM="screen-256color"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
