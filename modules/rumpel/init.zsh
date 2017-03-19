@@ -17,3 +17,4 @@
 #source "./git.plugin.zsh"
 #source "${0:h}/external/rumpel/git.plugin.zsh"
 source "${0:h}/external/git.plugin.zsh"
+source "${0:h}/external/caller.zsh"
