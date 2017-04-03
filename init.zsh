@@ -42,11 +42,15 @@ function pmodload {
     # Load Prezto functions.
     for pfunction in ${ZDOTDIR:-$HOME}/.zprezto/modules/${^pmodules}/functions/$~pfunction_glob; do
       autoload -Uz "$pfunction"
+      #echo pfunction
+      #echo $pfunction
     done
   }
 
   # Load Prezto modules.
   for pmodule in "$pmodules[@]"; do
+    #echo pmodule
+    #echo $pmodule
     if zstyle -t ":prezto:module:$pmodule" loaded 'yes' 'no'; then
       continue
     elif [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto/modules/$pmodule" ]]; then

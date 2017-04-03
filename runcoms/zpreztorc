@@ -33,7 +33,8 @@ zstyle ':prezto:load' pmodule \
   'tmux'  \
   'history-substring-search' \
   'syntax-highlighting' \
-  'rumpel'
+  'rumpel'  \
+  'z'
 #  'git'
 
 

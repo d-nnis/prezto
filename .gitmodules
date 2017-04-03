@@ -31,3 +31,6 @@
 [submodule "modules/rumpel/external"]
 	path = modules/rumpel/external
 	url = ssh://git@github.com/d-nnis/rumpel.git
+[submodule "modules/z/external"]
+	path = modules/z/external
+	url = https://github.com/rupa/z/
