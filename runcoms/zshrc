@@ -25,4 +25,13 @@ export GPG_TTY
 #export TERM="rxvt-unicode-256color"
 #export TERM="screen-256color"
 
+## antigen
+source "${ZDOTDIR:-$HOME}/dotfiles/antigen/antigen.zsh"
+
+antigen bundle andrewferrier/fzf-z
+
+antigen apply
+## /antigen
+
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
