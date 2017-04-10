@@ -4,7 +4,7 @@
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
-$HOME/dotfiles/bin/firefox-sync.sh
+#$HOME/dotfiles/bin/firefox-sync.sh
 
 # Execute code only if STDERR is bound to a TTY.
 [[ -o INTERACTIVE && -t 2 ]] && {

@@ -55,7 +55,7 @@ if (( $#commands[(i)lesspipe(|.sh)] )); then
 fi
 
 ## firefox-profile in ramdisk
-$HOME/dotfiles/bin/firefox-sync.sh
+#$HOME/dotfiles/bin/firefox-sync.sh
 
 #
 # Temporary Files
