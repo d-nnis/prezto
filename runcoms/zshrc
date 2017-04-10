@@ -33,5 +33,9 @@ antigen bundle andrewferrier/fzf-z
 antigen apply
 ## /antigen
 
+#TODO: escaping for tmux
+#function chpwd() {
+#  print -Pn "\e]2;%~\a"
+#}
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
