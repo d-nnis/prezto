@@ -13,6 +13,8 @@ if [ -f $HOME/dotfiles/alias ]; then
   . $HOME/dotfiles/alias
 fi
 
+. $HOME/dotfiles/littlehelper
+
 # Edit command line im editor
 autoload -U edit-command-line
 zle -N edit-command-line
