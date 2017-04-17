@@ -1,6 +1,7 @@
 #
 # Sets Prezto options.
 #
+echo -n "-> ${0:t} "
 
 #
 # General
@@ -169,6 +170,9 @@ zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 #
 # Tmux
 #
+
+source $HOME/dotfiles/tmux_manage.zsh
+tmux_aware
 
 # Auto start a session when Zsh is launched in a local terminal.
 #zstyle ':prezto:module:tmux:auto-start' local 'yes'
