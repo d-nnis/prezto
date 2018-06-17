@@ -20,10 +20,10 @@ if [ -d $HOME/Android/platform-tools ]; then
 fi
 
 #export PATH="/home/dennis/workspace/lp_tools:$PATH"
-path=(
-  /home/dennis/workspace/lp_tools 
-  $path
-)
+
+if [ -f $HOME/.zshrc.local ]; then
+  . $HOME/.zshrc.local
+fi
 
 # Edit command line im editor
 autoload -U edit-command-line
